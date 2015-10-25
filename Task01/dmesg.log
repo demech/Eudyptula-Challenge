@@ -1,0 +1,15 @@
+[ 9730.265156] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[ 9730.265246] cfg80211: Calling CRDA for country: US
+[ 9730.268804] cfg80211: Regulatory domain changed to country: US
+[ 9730.268811] cfg80211:  DFS Master region: unset
+[ 9730.268814] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[ 9730.268819] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2700 mBm), (N/A)
+[ 9730.268822] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 1700 mBm), (N/A)
+[ 9730.268826] cfg80211:   (5250000 KHz - 5330000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (0 s)
+[ 9730.268829] cfg80211:   (5490000 KHz - 5600000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (0 s)
+[ 9730.268832] cfg80211:   (5650000 KHz - 5710000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (0 s)
+[ 9730.268835] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 3000 mBm), (N/A)
+[ 9730.268838] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+[ 9754.513616] mei_me 0000:00:16.0: timer: init clients timeout hbm_state = 1.
+[ 9754.513630] mei_me 0000:00:16.0: unexpected reset: dev_state = INIT_CLIENTS 1E000245 60000106
+[10059.305952] Hello World!
