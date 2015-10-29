@@ -11,11 +11,9 @@ an arbitrary kernel sources directory from an environment variable.
 #include <linux/module.h> // Needed for all modules
 #include <linux/init.h> // Needed for entry and exit macros
 #include <linux/kernel.h> // Needed for printk macros
-#include <asm/current.h> // Needed for process information
-#include <linux/sched.h> // Needed for struct task_struct
 
 static int __init start(void){
-	printk(KERN_INFO "Hello World!\n");
+	printk(KERN_DEBUG "Hello World!\n");
 	return 0;
 }
 
@@ -26,4 +24,5 @@ static void __exit stop(void){
 module_init(start);
 module_exit(stop);
 
-
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Blind (Demetrius)");
